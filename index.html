@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sahaya WebSite</title>
+        </head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 15px;
+}
+
+body {
+  /*background-color: rgb(17, 130, 230);*/
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-position: center center;
+  height: 100vh;
+ /* background-image: url("cvsrsahayawhite.png");*/
+}
+
+ol{
+  font-size: 30px;
+  color: black;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+ul{
+  font-size: 30px;
+  color: black;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.p1{
+  color: black;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+h1{
+    text-align: center;
+   /* color:rgb(255, 0, 0);*/
+    font-style: italic;
+    font-size: 40px;
+}
+
+.top{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.menu-area li a {
+  text-decoration: none;
+}
+
+.home{
+  background-color: orange;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.menu-area li {
+  list-style-type: none;
+}
+
+.custom-padding{
+  padding-top: 25px;
+}
+
+nav {
+  position: relative;
+  width: calc(100% - 60px);
+  margin: 0 auto;
+  padding: 10px 0;
+  background: rgba(51, 51, 51, 0.185);
+  z-index: 1;
+  text-align: right;
+  padding-right: 2%;
+}
+
+.logo {
+  /*width: 15%;*/
+  float: left;
+  text-transform: uppercase;
+  text-align: left;
+  color: rgba(52, 24, 177, 0.781);
+  font-size: 25px;
+  text-align: left;
+  padding-left: 2%;
+}
+
+.menu-area li {
+  display: inline-block;
+}
+
+.menu-area a {
+  color: rgba(52, 24, 177, 0.781);
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: block;
+  padding: 0 20px;
+  font-size: 18px;
+  line-height: 30px;
+  position: relative;
+  z-index: 1;
+}
+.menu-area a:hover {
+  background: tomato;
+  color: rgba(14, 45, 219, 0.781);
+}
+
+.menu-area a:hover:after {
+  transform: translateY(-50%) rotate(-35deg);
+}
+
+nav:before {
+  position: absolute;
+  content: '';
+  border-top: 10px solid #333;
+  border-right: 10px solid #333;
+  border-left: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  top: 100%;
+  left: 0;
+}
+
+nav:after {
+  position: absolute;
+  content: '';
+  border-top: 10px solid #333;
+  border-left: 10px solid #333;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  top: 100%;
+  right: 0;
+}
+
+
+img.a {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+/* ignore the code below */
+
+
+.link-area
+{
+  position:fixed;
+  bottom:20px;
+  left:20px;  
+  padding:15px;
+  border-radius:40px;
+  background:tomato;
+}
+.link-area a
+{
+  text-decoration:none;
+  color:#fff;
+  font-size:25px;
+}
+</style>
+
+<body>
+
+<!--<h2>Responsive Navigation Bar with Icons</h2>
+<p>Try to resize the browser window to see the responsive effect.</p>-->
+<div class="custom-padding">
+    <nav>
+      <div class="logo">Sahaya is helping hand
+      
+  </div>
+      <ul class="menu-area">
+        <li><a href="#gohome"> About Us</a> </li>
+        <li><a href="#goactivities">Activities</a> </li>
+        <li><a href="#generalvisit"> General Visit</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="home" id="gohome">
+    <h1>ABOUT US</h1>
+    </div>
+    <p style="text-indent: 5em;" class="p1">CVSR Sahaya was started in the year 2009 by the students of CSE , under the guidance of Dr. G. Vishnu Murthy, HOD of CSE. 
+      It started with an aim to provide support to the under privileged and needy of the society as a whole and with a more concentration on 
+      such people in the surroundings of the college campus.
+    </p> 
+    <br>
+    <p style="text-indent: 5em;" class="p1">Though it started as an initiative by the students of CSE, it gradually spread throughout the college with its open ideology and 
+        clear vision and became an amalgamation of the student community from all departments and all years making itself an institutional 
+        organization than a departmental work.
+    </p> 
+    <br>
+    <p style="text-indent: 5em;" class="p1">In the course of its progress even Faculty from various departments became the members of Sahaya and took active part in their roles
+           towards helping the society within their reach.
+    </p>
+    <br>
+    <p style="text-indent: 5em;" class="p1">Transparency and clarity of vision and mission of the organization are the assets that made Sahaya a very successful student 
+             organization. The continuous dynamic leadership of various students over the years expanded the works of Sahaya from simple monetary 
+             help to a few people to the level of a monthly support to orphanages and under privileged and also to adopting uncared kids.
+    </p>
+    <br>
+    <p style="text-indent: 5em;" class="p1">A detailed list of each work done by Sahaya is given below and Sahaya wishes to grow its reach and capabilities as high as 
+               possible and be able to help as many as possible.
+    </p>
+    <br>
+    <br>
+    <div class="home">
+      <h1>AIMS AND OBJECTIVES</h1>
+    </div>
+  <ol type="1">
+    <li>1.To make sure that the citizens of the country have the access to enjoy the fundamental rights. </li><br>
+    <li>2.To bring socio-economic change in India.</li><br>
+    <li>3.We must bring the change that we seek to bring out.</li><br>
+    <li>4.Our services mainly focus on imparting few basic needs for people like blind, orphans etc so that they become self sufficient in future.</li>
+    <br>    
+    <li>5.To help the underprivileged and to better their lives in any way possible. </li><br>
+    <li>6.We aim at educating and empowering the youth into taking proper and timely action, so as to encompass a brighter tomorrow.</li><br>
+  </ol>
+  <div class="home" id="goactivities"> 
+    <h1>ACTIVITIES</h1>
+  </div>
+  <ol type="1" >
+    <li>1.Visiting  Old age Home. </li><br>
+    <li>2.Visit to Orphanages.</li><br>
+    <li>3.Visiting  Government Schools. </li><br>
+    <li>4.Collecting  Blood Group Database. </li><br>
+    <li>5.Visit To Blind Hostel.</li><br>
+    <li>6.Eye Donation Camp. </li><br>
+    <li>7.Conducted A Rally On Anti-Ragging Go Green Ganesh And Anti Drug Addiction.</li><br>
+    <li>8.Conducting  Blood Donation Camps.</li><br>
+    <li>9.Distribution Text Books to Govt School Students.</li><br>
+    <li>10.Donating Rice to Orphanage.</li><br>
+  </ol>
+  <div class="home" id="generalvisit">
+    <h1>GENERAL VISIT</h1>
+  </div>
+  <h2 class="top"><u>EDUCATING CHILDREN</u></h2>
+  <p style="text-indent: 5em;" class="p1">CVSR Sahaya Members frequently visit  Govt. Schools and educate  them in computer education.</p>
+  <br>
+  <ul style="text-indent: 1em;">
+    <li>With the motive to educate government high school students with basics of computer which may help them in the immediate future, 
+      the committee students taught them few concepts (basics) like MS-WORD, PAINT etc in which the students were enthusiastic to learn them. 
+    </li>
+      <br>
+      <li>Our committee students also inspired them by showing great leader’s pictures and their autobiographies (in brief) 
+        so as to make them to dedicate something to our nation.</li><br>
+  </ul>
+  <img src="Picture1.png" width="500" height="500" class="a"><br>
+  <h2 class="top"><u>VISIT TO GOVT HOME FOR THE BLIND</u></h2>
+  <p style="text-indent: 5em;" class="p1">The CVSR Sahaya Members Visited govt home for the blind at Dilshuknagar and celebrated Rakhi 
+    festival with differently abled people.</p>
+    <br>
+    <ul style="text-indent: 1em;">
+      <li>The precious gift that is given by god to us is VISION to enjoy the beauty of nature that he created, but still few people in 
+        this world are lagging it.</li><br>
+        <li>These blind people still are taken care by few government organizations. SAHAYA students visited one of them. 
+          They visited blind school on friendship day so as to create a friendly relationship with them in order to help them .</li><br>
+          <li>During interaction people reacted so well expressing their feelings, requirements etc with the committee students. 
+            CVSR -SAHAYA students were able to provide some necessary things to them by raising funds from the students in the CVSR campus.
+          </li><br>
+    </ul>
+    <img src="Picture2.png" width="500" height="500" class="a"><br>
+    <h2 class="top"><u>VISIT TO THE OLDAGE HOME</u></h2>
+    <ul style="text-indent: 1em;">
+      <li>The very first event of CVSR-SAHAYA committee was a visit to old age home at Dilsukh nagar. </li><br>
+        <li>There they found many old people staying alone from their children due to many reasons. </li><br>
+          <li>Many of them told that their children were not taking care of them. The students shared a view that those old 
+            people are missing their children so much and are expecting love from others atleast. 
+          </li><br>
+          <li>Students found few facilities that were not available there. CVSR-SAHAYA students collected contributions and 
+            donated to the old age home for improving the facilities. </li><br>
+
+    </ul>
+    <img src="Picture3.png" width="500" height="500" class="a"><br>
+    <h2 class="top"><u>AWARENESS PROGRAMME ON EYE DONATION</u></h2>
+    <ul style="text-indent: 1em;">
+      <li>This was a very big event planned by CVSR-SAHAYA students in order to gather all the students from different branches so as to
+         donate our eyes after we pass away to the blind.  </li><br>
+        <li>The program was held by Mr. T. Kishan Reddy, counseling coordinator, L. V. Prasad institute who came all the long way to CVSR campus.
+        </li><br>
+          <li>He created awareness among the students as well as faculty and management and explained the importance of donating eyes, 
+            and various causes of blindness etc.  
+          </li><br>
+    </ul>
+    <div class="row">
+      <div class="column">
+    <img src="Picture4.png" width="500" height="500">
+    </div>
+    <div class="column">
+    <img src="Picture5.png" width="500" height="500">
+    </div>
+    </div><br>
+    <h2 class="top"><u>BLOOD DONATION CAMP</u></h2>
+    <ul style="text-indent: 1em;">
+      <li>CVSR-SAHAYA has conducted a blood donation camp in the college premises ,which had a good response from the students .</li><br>
+        <li>All students had actively participated in it and made this a very good success.
+        </li><br>
+          <li>The blood donation camp was conducted with an intention to provide help to the people in need of blood.  
+          </li><br>
+    </ul>
+    <div class="row">
+      <div class="column">
+    <img src="Picture6.png" width="500" height="500">
+    </div>
+    <div class="column">
+    <img src="Picture7.png" width="500" height="500">
+    </div>
+    </div><br>
+    <h2 class="top"><u>LALANA ORPHANAGE</u></h2>
+    <p style="text-indent: 5em;" class="p1">CVSR Sahaya student members visited lalana orphanage to offer money in the form cheque for 
+      paying school fees of children residing in orphanage home. Lalana Orphanage has children of all ages who are in need of love and 
+      care along with financial help.
+</p>
+<br>
+<img src="Picture8.png" width="500" height="500" class="a"><br>
+<h2 class="top"><u>CVSR Sahaya extended its activities by adopting children’s</u></h2>
+    <p style="text-indent: 5em;" class="p1">2k14 Academic CSE  students Adopted 4 children’s and have faculty side 2members  adopting  six 
+      school children studying  below III Standard by providing all basic facilities like paying school fee, issuing  of required text books 
+      and notebooks, providing clothes etc.
+</p>
+<br>
+<img src="Picture9.png" width="500" height="500" class="a"><br>
+    <p style="text-indent: 5em;" class="p1">Prof. Mutha Reddy Principal and   Mrs. Vishnu Vandana HR of AGI visited Friends 
+      Foundation adopted 6- kids and distributed books among the children 
+</p>
+<br>
+<img src="Picture10.png" width="750" height="500" class="a"><br>
+<p style="text-indent: 5em;" class="p1">Dr.K.S. Rao, Director and Dr.G.Vishnu Murthy HOD, CSE Dept. donating cheque to the adopted children 
+  under CVSR Sahaya   
+</p>
+<br>
+<img src="Picture11.png" width="750" height="500" class="a"><br>
+<p style="text-indent: 5em;" class="p1">Birth day celebration of adopted kids baby swapna and ambika by CVSR Sahaya at friends foundation.   
+</p>
+<br>
+<div class="row">
+  <div class="column">
+<img src="Picture12.png" width="500" height="500">
+</div>
+<div class="column">
+<img src="Picture13.png" width="500" height="500">
+</div>
+</div><br>
+</body>
+</html> 
